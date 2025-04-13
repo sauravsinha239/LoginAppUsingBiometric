@@ -181,6 +181,9 @@ class _LoginPageState extends State<LoginPage> {
                               setState(() {
                                 emailTextEditor.text = Text;
                               }),
+                          style: TextStyle(
+                            color: darkTheme ? Colors.white:Colors.black,
+                          ),
                         ),
                         //Password Box
                         const SizedBox(
@@ -237,6 +240,9 @@ class _LoginPageState extends State<LoginPage> {
                               setState(() {
                                 passwordTextEditor.text = text;
                               }),
+                          style: TextStyle(
+                            color: darkTheme ? Colors.white:Colors.black,
+                          ),
                         ),
                         const SizedBox(
                           height: 50,
